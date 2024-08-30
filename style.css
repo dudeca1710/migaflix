@@ -1,0 +1,48 @@
+body {
+color:white;
+background: black;
+margin: 4px;
+font-family: "Chakra Petch", sans-serif;
+}
+
+header {
+border-bottom: solid  2px rgb(72, 172, 138);
+padding: 20px;
+font-size: 35px;
+} 
+ section{
+background: rgb(39, 38, 38);
+padding-bottom: 80px;
+padding-top: 80px;
+display: flex;
+justify-content: center;
+
+
+ }
+.chamada-texto {
+    margin-right: 20px;
+    border-right: solid 6px black;
+
+ }
+
+ h1 {
+    font-size: 40px;
+ }
+
+ p{
+    font-size: 20px;
+ }
+
+ .categoria-músicas img{
+   height: 200px;
+   opacity: 0.5;
+ }
+
+ .categoria-músicas img:hover{
+   opacity: 1.0;
+   height: 250px; 
+ }
+.categoria-músicas{
+   display: flex;
+   overflow-x:auto;
+}
